@@ -1,0 +1,165 @@
+/*
+Theme Name:   Accelerate Theme Child
+Theme URI:    http://example.com/accelerate-theme-child/
+Description:  Accelerate Child Theme - Accelerate
+Author:   	Kacey Creative
+Author URI:   http://example.com
+Template: 	accelerate-theme
+Version:      2.0.0
+Tags:     	light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+Text Domain:  accelerate-theme-child
+*/
+
+.home-page {
+    background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+}
+
+#masthead {
+    background: none repeat scroll 0 0 #45ac9d;
+}
+
+.button {
+	background: #45ac9d;
+}
+
+.blog-post {
+    width: 50%;
+    float: left;
+    margin-bottom: 2em;
+}
+
+.blog-post h4 {
+    font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+    color: #a6a6a6;
+    text-transform: uppercase;
+    margin: 2em 0 .5em;
+}
+
+.blog-post h3 {
+    font-size: 1.5em;
+
+}
+
+.read-more-link {
+    font-family: 'Montserrat';
+	font-weight: 700;
+	color: #45ac9d;
+	text-transform: uppercase;
+}
+
+/* Home Page Featured Works Section */
+
+.featured-work h4 {
+    text-align: center;
+    font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    margin: 2em 0 2em;
+}
+
+
+.featured-work ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.featured-work li {
+    float: left;
+}
+
+.individual-featured-work h3 {
+    text-align: center;
+    font-weight: lighter;
+}
+
+/* Footer */
+
+.social-media-navigation ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.social-media-navigation li {
+    flex-basis: auto;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #3b3b3b;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+}
+
+.social-media-navigation a{
+    color: #fff;
+
+    text-align: center;
+    vertical-align: middle;
+}
+
+.dashicons {
+    padding-top: 12px;
+}
+
+.genericon {
+    padding-top: 10px;
+}
+
+
+
+/* Custom Post Types - Case Studies */
+
+aside.case-study-sidebar {
+    float: left;
+    width: 300px;
+}
+
+aside h2{
+    font-size: 1.25em;
+}
+
+aside h4{
+    color: #a6a6a6;
+    font-size: .75em;
+    font-weight: 500;
+}
+
+aside h4 span{
+    color:black;
+}
+
+div.case-study-img {
+    float: left;
+    width: 550px;
+    margin-left: 75px;
+}
+
+.back-link {
+    float: left;
+    width: 100%;
+    text-transform: uppercase;
+    border-top: 1px solid #bfbfbf;
+    padding-top: 2em;
+}
+
+
+
+/* Cast Studies Archive Page */
+
+div.case-study-img img {
+    width: 100%;
+    height: auto;
+}
+
+.case-study-img {
+    margin-bottom: 45px;
+}
+
+article.case-study-archives {
+    padding-bottom: 30px;
+}
+
+
