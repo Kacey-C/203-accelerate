@@ -163,3 +163,87 @@ article.case-study-archives {
 }
 
 
+/* Contact Us Page */
+
+.contact h2 {
+    font-size: 1.75em;
+    color: #333; 
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact .main-content p,
+.nf-response-msg p {
+    font: 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+    color: #333; 
+    width: 80%;
+}
+
+.nf-response-msg {
+    padding-top: 5%;
+}
+
+#nf-form-1-cont {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nf-form-fields-required,
+.ninja-forms-req-symbol{
+    display: none;
+}
+
+#nf-field-1-container,
+#nf-field-2-container {
+    display: inline-block;
+    width: 47%;
+}
+
+#nf-field-1-container {
+    margin-right: 30px;
+}
+
+#nf-label-field-1,
+#nf-label-field-2,
+#nf-label-field-3 {
+    font-weight: 600;
+}
+
+.nf-field-element {
+    background-color: #fff;
+}
+
+#nf-field-4-wrap {
+    float: right;
+}
+
+#nf-field-4 {
+    background: #45ac9d;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+/* About Page */
+
+.about-hero {
+    background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+    height: auto;
+    margin: 0 0 5em;
+    padding: 8em 0;
+	text-align: center;
+}
+
+.about-hero h2{
+    color: #fff;
+    font-weight: normal;
+	font-size: 1.75em;
+	line-height: 1.5;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
