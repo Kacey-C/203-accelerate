@@ -247,3 +247,144 @@ article.case-study-archives {
     margin-left: auto;
     margin-right: auto;
 }
+
+.services {
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.about-subheading h3,
+.about-subheading p{
+    text-align: center;
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-subheading h3 {
+    text-transform: uppercase;
+    padding-bottom:2%;
+}
+
+
+
+.individual-services-text h2 {
+    font-weight: normal;
+	font-size: 1.5em;
+	line-height: 1.5;
+}
+
+.services ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.services li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+.individual-services {
+    display: flex;
+    align-items: center;
+}
+
+.individual-services-image figure {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 30%;
+}
+
+.individual-services-text {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: right;
+    max-width: 70%;
+    text-align: left;
+}
+
+.individual-services:nth-child(odd) {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.about-cta {
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.work-with-us {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-top: 1px solid #bfbfbf;
+}
+
+.work-with-us-button {
+    margin-top: 5%;
+}
+
+/* 404 Page */
+
+.page-404-content {
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.page-404 {
+    background: url("img/ice-cream-spill.jpeg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+}
+
+.top-404{
+    color: #fff;
+    width: 50%;
+    display:inline-block;
+}
+
+.top-404 h1 {
+    font-size: 3.5em;
+    font-family: 'Kalam', 'Montserrat', 'Open Sans', Arial, sans-serif;
+    font-weight: 700;
+    margin: 0;
+    padding-top: .75em;;
+}
+
+.top-404 h3 {
+    font-size: 1.75em;
+    font-family: 'Kalam', 'Montserrat', 'Open Sans', Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1em;
+    margin: 0;
+}
+
+.bottom-404 {
+    color: #fff;
+    width: 40%;
+    margin-top: 4rem;
+}
+
+.bottom-404 p{
+    color:#fff;
+}
+
+.bottom-404 h4 {
+    margin: 0;
+}
+
+.bottom-404 a {
+    color: #45ac9d;
+}
