@@ -22,21 +22,32 @@ Text Domain:  accelerate-theme-child
 	background: #45ac9d;
 }
 
-.blog-post {
-    width: 50%;
-    float: left;
+.home-page-bottom {
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-post,
+.twitter-feed {
+    width: 45%;
+
     margin-bottom: 2em;
 }
 
-.blog-post h4 {
+.blog-post h4,
+.twitter-feed h4 {
     font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
     color: #a6a6a6;
     text-transform: uppercase;
     margin: 2em 0 .5em;
 }
 
-.blog-post h3 {
-    font-size: 1.5em;
+.blog-post h3,
+.widget-title h3 {
+    font-size: 1.5rem;
 
 }
 
@@ -387,4 +398,15 @@ article.case-study-archives {
 
 .bottom-404 a {
     color: #45ac9d;
+}
+
+/* Blog Sidebar */
+
+input[type='button'],
+input[type='submit'] {
+    font-family: 'Montserrat';
+	font-weight: 700;
+    background-color: #45ac9d;
+    color: #fff;
+	text-transform: uppercase;
 }
